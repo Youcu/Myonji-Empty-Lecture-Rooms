@@ -203,7 +203,7 @@ def main():
     
     # 스타일 적용된 테이블 표시
     styled_df = apply_table_styling(empty_times_df)
-    st.dataframe(styled_df, width='stretch', height=492)
+    st.dataframe(styled_df, width='stretch', height=492, hide_index=True)
     
 if __name__ == "__main__":
     main()
