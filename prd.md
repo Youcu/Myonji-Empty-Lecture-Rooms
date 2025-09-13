@@ -22,7 +22,7 @@
 5. 요일별 room_list 및 빈 시간 계산 
 6. Streamlit UI 제공
    - 요일 선택 박스 (월~금, default: 오늘 혹은 주말이면 월)
-   - 빈 강의실 시간표 테이블 표시 (색상 강조: Possible->blue, Impossible->red)
+   - 빈 강의실 시간표 테이블 표시 (색상 강조: Possible->#455f8e, Impossible->#b86666)
    - st.table로 데이터프레임을 띄운다. 
    - th, td에 대해서 border는 solid 1px white, font-color는 white로 지정한다. 
    - th는 X-axis 방향(Column Schema)으로 강의실 번호(ex. Y5401)를 띄우고, Y-axis 방향 ((0, *)|except(0,0))으로는 HH:MM을 한시간 단위로 띄운다. 
