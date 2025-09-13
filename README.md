@@ -36,6 +36,7 @@ cd EmptyRoom
 
 ### 2. 가상환경 생성 및 활성화
 ```bash
+python -m venv emptyroomVENV
 source emptyroomVENV/bin/activate
 ```
 
